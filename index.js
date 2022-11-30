@@ -25,6 +25,6 @@ document.getElementById("3").onclick = function(){
     a=document.getElementById("1").value;
     b=document.getElementById("2").value;
     c=Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
-    document.getElementById("4").innerHTML= "Answer = "+c;
+    document.getElementById("4").innerHTML= "Hypotenuse = "+c;
 }
 
